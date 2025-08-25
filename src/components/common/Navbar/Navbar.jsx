@@ -83,7 +83,7 @@ export default function Navbar() {
                 <div className={styles.brandArea}>
                     <Link to="/" className={styles.brandLogo}>
                         <img src="/CIMEF/assets/images/LOGO-GREEN.svg" alt="CIMEF Logo" />
-                        <span className={styles.brandText}>CIMEF</span>
+                        <span className={styles.brandText}></span>
                     </Link>
                 </div>
 
@@ -135,7 +135,7 @@ export default function Navbar() {
                         >
                             <div className={styles.mobileHeader}>
                                 <img src="/CIMEF/assets/images/LOGO-GREEN.svg" alt="CIMEF" />
-                                <h3>Navigation</h3>
+                                <h3></h3>
                             </div>
 
                             <nav className={styles.mobileNav}>
@@ -161,9 +161,6 @@ export default function Navbar() {
                             >
                                 <p>© 2025 CIMEF Tunisie</p>
                                 <div className={styles.socialLinks}>
-                                    <a href="#" aria-label="Facebook">📘</a>
-                                    <a href="#" aria-label="LinkedIn">💼</a>
-                                    <a href="#" aria-label="Instagram">📷</a>
                                 </div>
                             </motion.div>
                         </motion.div>

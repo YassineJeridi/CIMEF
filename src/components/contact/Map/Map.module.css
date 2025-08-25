@@ -2,21 +2,129 @@
     background: linear-gradient(91deg, #e8f8ee 62%, #eafdde 100%);
     border-radius: var(--radius-2xl);
     box-shadow: 0 12px 44px -18px #4A90A455;
-    padding: var(--spacing-8) var(--spacing-6);
+    padding: var(--spacing-8);
     margin-top: var(--spacing-3);
+    overflow: hidden;
 }
 
-h3 {
+.card h3 {
     color: #4A90A4;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-xl);
     font-weight: 700;
-    margin-bottom: var(--spacing-3);
+    margin-bottom: var(--spacing-4);
+    text-align: center;
 }
 
-iframe {
+.mapContainer {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px -12px rgba(44, 95, 65, 0.3);
+    margin-bottom: var(--spacing-4);
+}
+
+.mapContainer iframe {
     border: none;
     width: 100%;
-    min-height: 190px;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
+    height: 250px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.mapContainer:hover iframe {
+    transform: scale(1.02);
+}
+
+.mapInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-4);
+    background: rgba(255, 255, 255, 0.6);
+    padding: var(--spacing-4);
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.address {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-2);
+    flex: 1;
+}
+
+.addressIcon {
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.address div {
+    color: #346855;
+    font-size: var(--fs-sm);
+    line-height: 1.4;
+}
+
+.address strong {
+    color: #2c5f41;
+    font-weight: 700;
+}
+
+.directionsBtn {
+    background: linear-gradient(135deg, #85BB65 0%, #4A90A4 100%);
+    color: white;
+    text-decoration: none;
+    padding: var(--spacing-2) var(--spacing-4);
+    border-radius: var(--radius-md);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    box-shadow: 0 4px 12px -4px #85bb6550;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.directionsBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px -6px #85bb6570;
+    background: linear-gradient(135deg, #4A90A4 0%, #85BB65 100%);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .card {
+        padding: var(--spacing-6);
+    }
+
+    .mapContainer iframe {
+        height: 200px;
+    }
+
+    .mapInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-3);
+    }
+
+    .directionsBtn {
+        align-self: stretch;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: var(--spacing-4);
+    }
+
+    .mapContainer iframe {
+        height: 180px;
+    }
+
+    .card h3 {
+        font-size: var(--fs-lg);
+    }
+
+    .address div {
+        font-size: var(--fs-xs);
+    }
 }
