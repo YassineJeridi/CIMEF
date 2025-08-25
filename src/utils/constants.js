@@ -90,52 +90,52 @@ export const SERVICES = [
 export const PARTNERS = [
     {
         name: 'Apple',
-        logo: '/src/assets/images/logo-apple.png',
+        logo: '/assets/images/logo-apple.png',
         category: 'Technology'
     },
     {
         name: 'Ricoh',
-        logo: '/src/assets/images/01-Ricoh-IM-C2500-IM-6000.webp',
+        logo: '/assets/images/01-Ricoh-IM-C2500-IM-6000.webp',
         category: 'Printing Solutions'
     },
     {
         name: 'Attijariwafa Bank',
-        logo: '/src/assets/images/ATTIJARIWAFA_BANK_LOGO.png',
+        logo: '/assets/images/ATTIJARIWAFA_BANK_LOGO.png',
         category: 'Banking'
     },
     {
         name: 'Carrefour',
-        logo: '/src/assets/images/Carrefour_logo.png',
+        logo: '/assets/images/Carrefour_logo.png',
         category: 'Retail'
     },
     {
         name: 'BIAT',
-        logo: '/src/assets/images/logo-BIAT.png',
+        logo: '/assets/images/logo-BIAT.png',
         category: 'Banking'
     },
     {
         name: 'Orange Tunisie',
-        logo: '/src/assets/images/logo-orange.png',
+        logo: '/assets/images/logo-orange.png',
         category: 'Telecommunications'
     },
     {
         name: 'Tunisie Telecom',
-        logo: '/src/assets/images/Tunisie-Telecom-logo-1024x677.png',
+        logo: '/assets/images/Tunisie-Telecom-logo-1024x677.png',
         category: 'Telecommunications'
     },
     {
         name: 'Renault',
-        logo: '/src/assets/images/renault-logo.png',
+        logo: '/assets/images/renault-logo.png',
         category: 'Automotive'
     },
     {
         name: 'UBCI',
-        logo: '/src/assets/images/ubci-logo.png',
+        logo: '/assets/images/ubci-logo.png',
         category: 'Banking'
     },
     {
         name: 'Henkel',
-        logo: '/src/assets/images/Henkel-Logo.png',
+        logo: '/assets/images/Henkel-Logo.png',
         category: 'Manufacturing'
     }
 ]
@@ -181,7 +181,7 @@ export const TESTIMONIALS = [
         company: 'TunisieTech',
         content: 'CIMEF nous accompagne depuis plus de 10 ans. Leur expertise et leur réactivité font d\'eux un partenaire incontournable.',
         rating: 5,
-        avatar: '/src/assets/images/avatar-1.jpg'
+        avatar: '/assets/images/avatar-1.jpg'
     },
     {
         id: 2,
@@ -190,7 +190,7 @@ export const TESTIMONIALS = [
         company: 'MedCorp',
         content: 'La qualité du service client et la rapidité d\'intervention de CIMEF dépassent nos attentes. Très satisfaits!',
         rating: 5,
-        avatar: '/src/assets/images/avatar-2.jpg'
+        avatar: '/assets/images/avatar-2.jpg'
     },
     {
         id: 3,
@@ -199,7 +199,7 @@ export const TESTIMONIALS = [
         company: 'InnovateTN',
         content: 'Grâce à CIMEF, nous avons pu moderniser tout notre parc informatique. Un accompagnement professionnel du début à la fin.',
         rating: 5,
-        avatar: '/src/assets/images/avatar-3.jpg'
+        avatar: '/assets/images/avatar-3.jpg'
     }
 ]
 

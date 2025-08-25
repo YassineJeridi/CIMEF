@@ -39,7 +39,7 @@ export default function Navbar() {
         >
             <div className={styles.brandArea}>
                 <Link to="/" className={styles.brandLogo}>
-                    <img src="/src/assets/images/LOGO-GREEN.svg" alt="CIMEF Logo" />
+                    <img src="/assets/images/LOGO-GREEN.svg" alt="CIMEF Logo" />
                 </Link>
 
             </div>

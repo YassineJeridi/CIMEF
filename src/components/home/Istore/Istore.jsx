@@ -27,7 +27,7 @@ export default function Istore() {
                 viewport={{ once: true, margin: "-100px" }}
             >
                 <motion.div variants={itemVariants} className={styles.imageWrapper}>
-                    <img src="/src/assets/istore-lac-2.png" alt="Istore" />
+                    <img src="/assets/istore-lac-2.png" alt="Istore" />
                 </motion.div>
                 <motion.div variants={itemVariants} className={styles.content}>
                     <h2>À propos d&apos;Istore</h2>
