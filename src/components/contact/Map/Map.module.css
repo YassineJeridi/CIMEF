@@ -1,0 +1,22 @@
+.card {
+    background: linear-gradient(91deg, #e8f8ee 62%, #eafdde 100%);
+    border-radius: var(--radius-2xl);
+    box-shadow: 0 12px 44px -18px #4A90A455;
+    padding: var(--spacing-8) var(--spacing-6);
+    margin-top: var(--spacing-3);
+}
+
+h3 {
+    color: #4A90A4;
+    font-size: var(--fs-lg);
+    font-weight: 700;
+    margin-bottom: var(--spacing-3);
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    min-height: 190px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+}
