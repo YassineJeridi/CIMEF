@@ -46,7 +46,7 @@ export default function Footer() {
                         <a href="/CIMEF/">Accueil</a>
                         <a href="/CIMEF/#services">Services</a>
                         <a href="/CIMEF/#partners">Partenaires</a>
-                        <a href="/CIMEF/contact">Contact</a>
+                        <a href="/contact">Contact</a>
                     </nav>
                 </div>
                 <div className={styles.contactsCol}>
