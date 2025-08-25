@@ -43,10 +43,10 @@ export default function Footer() {
                 <div className={styles.linksCol}>
                     <h4>Navigation</h4>
                     <nav>
-                        <a href="/">Accueil</a>
-                        <a href="/#services">Services</a>
-                        <a href="/#partners">Partenaires</a>
-                        <a href="/contact">Contact</a>
+                        <a href="/CIMEF/">Accueil</a>
+                        <a href="/CIMEF/#services">Services</a>
+                        <a href="/CIMEF/#partners">Partenaires</a>
+                        <a href="/CIMEF/contact">Contact</a>
                     </nav>
                 </div>
                 <div className={styles.contactsCol}>
