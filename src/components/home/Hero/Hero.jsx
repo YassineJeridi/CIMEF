@@ -80,7 +80,7 @@ export default function Hero() {
                 transition={{ delay: 0.6, duration: 1 }}
             >
                 <img
-                    src="/assets/images/hero-img-1024x859-2.png"
+                    src="/CIMEF/assets/images/hero-img-1024x859-2.png"
                     alt="CIMEF Solutions"
                     className={styles.heroImg}
                 />
