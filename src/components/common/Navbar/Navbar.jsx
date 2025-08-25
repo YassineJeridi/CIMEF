@@ -8,7 +8,7 @@ const navLinks = [
     { to: '/', label: 'Accueil' },
     { to: '/#services', label: 'Services' },
     { to: '/#partners', label: 'Partenaires' },
-    { to: '/contact', label: 'Contact' }
+    { to: '/CIMEF/contact', label: 'Contact' }
 ];
 
 const navVariants = {
