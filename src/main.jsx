@@ -7,7 +7,7 @@ import ScrollToAnchor from './components/common/ScrollToAnchor';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/CIMEF">
       <App />
       <ScrollToAnchor />
     </BrowserRouter>
