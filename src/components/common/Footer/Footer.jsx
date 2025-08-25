@@ -31,7 +31,7 @@ export default function Footer() {
             <div className={styles.gridContainer}>
                 <div className={styles.brandCol}>
                     <img
-                        src="/assets/images/LOGO-GREEN.svg"
+                        src="/CIMEF/assets/images/LOGO-GREEN.svg"
                         alt="CIMEF"
                         className={styles.logo}
                     />
